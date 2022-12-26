@@ -1,0 +1,315 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Container */
+.container {
+    width: 1011px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: url(img/Header/images/fon_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 60px 0 160px 0;
+}
+
+.header__title {
+    font-family: 'Rubik Spray Paint', cursive;
+    font-size: 40px;
+    color: #fff;
+}
+
+.header__nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header__nav li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
+
+    border-radius: 5px;
+
+    margin-left: 4px;
+    padding: 10px 13px;
+    transition: background-color .2s linear;/*плавное изменение цвета*/
+}
+
+.header__nav li a:hover {
+    background-color: #130e27; 
+}
+
+/* Header text */
+.header__main {
+    text-align: left;
+
+    margin-left: 20px;
+    padding-bottom: 160px;
+}
+
+.main__title {
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 0.889;
+    color: #130e27;
+
+    max-width: 530px; 
+    margin-bottom: 48px;  
+}
+
+.main__title span {
+    color: #fff;
+}
+
+.main__text {
+    text-align: left;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    max-width: 468px;
+}
+
+/* Services */
+.services__title {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #130e27;
+    text-transform: uppercase;
+
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.services__title span {
+    color: #c62314;
+}
+
+/* Services items */
+.services__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    text-align: center;
+
+    margin-left: 20px;
+}
+
+.services__icon {
+    font-size: 140px;
+    color: #130e27;
+
+    margin-bottom: 20px
+}
+
+.services__item__text {
+    color: #161616;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    max-width: 180px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+/* Story */
+.story {
+    background-color: #130e27;   
+}
+
+.story__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 31px 0 23px 20px;
+}
+
+.story__text {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    line-height: 1.4;
+
+    max-width: 630px;
+}
+
+.strory__btn a {
+    color: #c62314;
+    text-decoration: none;
+
+    transition: color 0.2s linear;
+}
+
+.strory__btn {
+    background-color: #fff;
+
+    font-size: 22px;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 5px;
+
+    padding: 22px 65px; 
+    
+    transition: background-color 0.2s linear;
+}
+
+.strory__btn:hover {
+    background-color: #c62314;
+    cursor: pointer;
+}
+
+.strory__btn:hover a{
+    color: #fff;
+
+}
+
+/* Pricing */
+.pricing {
+    background-color: #efefef;
+   
+    padding-bottom: 62px;
+    padding-top: 50px;
+}
+
+.pricing__title {
+    font-size: 50px;
+    font-family:'Montserrat', sans-serif;
+    color: rgb(19, 14, 39);
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 16px;
+}
+
+/* Pricing item */
+.pricing__item {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+
+    min-width: 319px;
+
+}
+
+.pricing__item__title {
+    font-size: 22px;
+    color: #161616;
+    font-family: 'PT Serif', serif;
+
+    margin: 30px;
+}
+
+.pricing__item__price {
+    font-size: 60px;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    color: #c62314;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.stat__item {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    color: #130e27;
+    line-height: 1.4;    
+}
+
+.pricing__item__btn {
+    background-color: #130e27;
+    border-radius: 4px;
+    width: 204px;
+
+    padding: 11px 84px;
+    
+    transition: background-color 0.2s linear;
+
+    margin: 30px 55px 13px;
+}
+
+.signup {
+    padding: 11px 10px;
+}
+
+.pricing__item__btn:hover {
+    background-color:#c62314;
+
+    cursor: pointer;
+}
+
+.pricing__item__btn a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family:'Montserrat', sans-serif;
+
+    transition: color 0.2s linear;
+}
+
+/* Footer */
+.footer {
+    background-color: #130e27;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 66px 0;
+}
+
+.footer__info {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    color: #fff;
+}
+
+.footer__info a{
+    color: #c62314;
+    text-decoration: none;
+}
+
+.footer__title {
+    font-family: 'Rubik Spray Paint', cursive;
+    font-size: 40px;
+    color: #c62314;
+}
+
